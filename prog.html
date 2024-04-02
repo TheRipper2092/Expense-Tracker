@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Expense Tracker</title>
+</head>
+<body>
+<nav class="topaa">
+    <div class="nav">
+    <img  class="logo" src="logo3.png" alt="logo">
+    </div>
+    <a class="topaa-1" href="expense.html">Expense Tracker</a>
+    <a class="topaa-1" href="About.html">About</a>
+    <a class="topaa-1" href="#container1">Home</a>
+</nav>
+<div id="container1" class="page1">
+<section class="slideshow">
+    <img class="slides" src="img24.jpeg" alt="logo" style="height:100% ;width:100% ;">
+    <img class="slides" src="img45.jpg" alt="logo" style="height:100% ;width:100% ;">
+    <img class="slides" src="img75.jpg" alt="logo" style="height:100% ;width:100% ;">
+    <div class="centered" style="color:rgb(34, 24, 24)"><B>Expense Tracker</B>
+    </div>
+</section>
+
+</div>
+<div class="spave"></div>
+<script>
+    var myIndex=0;
+    carousel();
+    function carousel()
+    {
+        var i;
+        var x=document.getElementsByClassName("slides");
+        for(i=0;i<x.length;i++)
+        {
+            x[i].style.display="none";
+        }
+        myIndex++;
+        if(myIndex > x.length){myIndex = 1}
+        x[myIndex-1].style.display="block"
+        setTimeout(carousel,3000);
+    }
+</script>

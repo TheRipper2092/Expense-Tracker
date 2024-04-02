@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="topaa">
+        <div class="nav">
+        <img  class="logo" src="logo3.png" alt="logo">
+        </div>
+        <a class="topaa-1" href="expense.html">Expense Tracker</a>
+        <a class="topaa-1" href="About.html">About</a>
+        <a class="topaa-1" href="prog.html">Home</a>
+    </nav>
+    <div id="container2" class="bigcontainer" >
+        <h2 class="track" style="font-size: xxx-large; font-family:Verdana, Geneva, Tahoma, sans-serif; ";>Expenses:</h2>
+        <div class="container">
+            <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Expense Tracker</h1>
+    
+            <form id="expenseForm">
+                <input type="text" id="description" placeholder="Expense Description" required style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <input type="number" id="amount" placeholder="Amount" min="0" step="0.01" required style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <input type="date" id="date" required style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                <br>
+                <input class="box" type="submit" value="Add Expense" style="font-family:Georgia, 'Times New Roman', Times, serif ;font-size: 15px;">
+                
+            </form>
+        </div>
+    </div>
+    <div class="big2-container">
+        <div class="report-container">
+           
+            <h2 style="margin-left: 40%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Monthly Expense Report</h2>
+       
+                <div id="expenseReport" class="report">
+                    <!-- Monthly expense report will be displayed here -->
+                
+                </div>
+            <button class="btnlst" onclick="downloadExpenseReport()" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 20px;">Download Monthly Expense Report</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+    </body>
+    </html>
+    
+</body>
+</html>

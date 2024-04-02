@@ -1,0 +1,171 @@
+html,body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+ .topaa
+  {
+        background-attachment: fixed;
+        background-image: none;
+        background-color:rgba(223, 227, 226, 0);
+        height: 50px;
+    }
+    .logo{
+     float:left;
+     height: 50px;
+     width: 60px;
+
+    }
+    .topaa-1
+    {
+        float: right;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+        color:rgba(15, 26, 30, 0.79);
+    }
+    .topaa-1:hover
+    {
+        background-color: rgb(139, 191, 236);
+        color:black;
+    }
+    .nav
+{
+    background-color: aliceblue;
+    justify-content: right;
+    align-items: self-end;
+}
+.slideshow
+{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.centered
+{
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.bigcontainer
+{   padding: 20px;
+    height: 100%;
+    width:100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: rgba(153, 146, 135, 0.599);
+    
+
+}
+.big2-container{
+    background-color: rgba(153, 146, 135, 0.599);   
+    height: 100%;
+}
+   
+
+.container {
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: rgba(114, 114, 102, 0.582);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.box
+{
+    width: 200px;
+    height: 50px;
+   margin-left: 36%;
+}
+
+
+#expenseList {
+    margin-top: 20px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #bd2130;
+}
+
+.big2-container
+{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.report-container
+{
+    height: 100vh;
+    width: 100%;
+    color: rgb(11, 11, 12);
+    font-size: 30px;
+    border: 2px solid;
+
+}
+
+.btnlst
+{   background-color: rgba(153, 146, 135, 0.599);  
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 45%;
+}
+.About
+{   height: auto;
+    width: auto;
+    background-color: rgba(153, 146, 135, 0.599);
+    display:  flex;
+    
+  
+}
+.write
+{ justify-content: center;
+    align-items: center;
+     height: auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.image
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
